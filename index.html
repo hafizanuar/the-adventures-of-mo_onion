@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Open full screen to play!</div>
+        <div id="unity-build-title">Surprise!</div>
       </div>
     </div>
     <script>
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL.loader.js";
+      var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL.data",
-        frameworkUrl: buildUrl + "/WebGL.framework.js",
-        codeUrl: buildUrl + "/WebGL.wasm",
+        dataUrl: buildUrl + "/Build.data",
+        frameworkUrl: buildUrl + "/Build.framework.js",
+        codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Hafiz A.",
         productName: "Surprise!",
@@ -97,7 +97,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/WebGL.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Build.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
